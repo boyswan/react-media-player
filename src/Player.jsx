@@ -145,7 +145,7 @@ class Player extends Component {
       src,
       vendor,
       autoPlay,
-      extraProps,
+      ...extraProps,
       ref: this._setPlayer,
       isLoading: this._setLoading,
       onReady: this._handleOnReady,
